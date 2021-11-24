@@ -1,25 +1,22 @@
 const formButton = document.querySelector("#form-submit");
 const form = document.querySelector("#formulario");
-const f = document.forms["formulario"];
-const info = "f.elements: " + f.elements + "\n"
-         + "f.length: " + f.length + "\n"
-         + "f.name: " + f.elements + "\n"
-         + "f.acceptCharset: " + f.acceptCharset + "\n"
-         + "f.action: " + f.action + "\n"
-         + "f.enctype: " + f.enctype + "\n"
-         + "f.encoding: " + f.encoding + "\n"
-         + "f.method: " + f.method + "\n"
-         + "f.target: " + f.target;
+const destino = document.querySelector("#destino-select");
+const llegada = document.querySelector("#llegada-select");
+const departure = document.querySelector("#deparure");
+const return_ = document.querySelector("#return");
+const round = document.querySelector("#round");
+const oneway = document.querySelector("#oneway");
+
 formButton.addEventListener("click", onSubmit);
-// destino-select
-// llegada-select
-// deparure
-// return
-// round
-// oneway
 
 function onSubmit(event) {
     event.preventDefault();
     console.log("funcionaaaA");
-    console.log("Form", info);
+    console.log("Form", form);
+    console.log("destino", destino);
+    console.log("llegada", llegada);
+    console.log("departure", departure);
+    console.log("return_", return_);
+    console.log("round", round);
+    console.log("oneway", oneway);
 }
