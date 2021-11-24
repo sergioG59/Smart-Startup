@@ -1,8 +1,8 @@
 const formButton = document.querySelector("#form-submit");
 const form = document.querySelector("#formulario");
-formButton.addEventListener("click", form);
+formButton.addEventListener("click", onSubmit);
 
-function form(event) {
+function onSubmit(event) {
     event.preventDefault();
     console.log("funcionaaaA");
     console.log("Form", form);
