@@ -1,9 +1,16 @@
 const formButton = document.querySelector("#form-submit");
 const form = document.querySelector("#formulario");
+const formTest = document.forms["form"];
 formButton.addEventListener("click", onSubmit);
+// destino-select
+// llegada-select
+// deparure
+// return
+// round
+// oneway
 
 function onSubmit(event) {
     event.preventDefault();
     console.log("funcionaaaA");
-    console.log("Form", form);
+    console.log("Form", formTest);
 }
