@@ -110,12 +110,12 @@
                         <div id="tab1">
                             <div class="submit-form">
                                 <h4>Confirma la disponibilidad de <em>tú destino</em>:</h4>
-                                <form action="" method="get">
+                                <form action="" method="get" id="formulario">
                                     <div class="row">
                                         <div class="col-md-6">
                                             <fieldset>
                                                 <label for="from">Destino de partida:</label>
-                                                <select required name='from' onchange='this.form.any()'>
+                                                <select required name='from' onchange='this.form.any()' id="destino-select">
                                                     <option value="">Seleccione un destino...</option>
                                                     <option value="1">Bogotá</option>
                                                     <option value="2">Barranquilla</option>
@@ -133,7 +133,7 @@
                                         <div class="col-md-6">
                                             <fieldset>
                                                 <label for="to">Destino de llegada:</label>
-                                                <select required name='to' onchange='this.form.any()'>
+                                                <select required name='to' onchange='this.form.any()' id="llegada-select">
                                                     <option value="">Seleccione un destino...</option>
                                                     <option value="1">Bogotá</option>
                                                     <option value="2">Barranquilla</option>
