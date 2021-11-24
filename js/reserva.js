@@ -21,5 +21,5 @@ formButton.addEventListener("click", onSubmit);
 function onSubmit(event) {
     event.preventDefault();
     console.log("funcionaaaA");
-    console.log("Form", f);
+    console.log("Form", info);
 }
