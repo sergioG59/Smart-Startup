@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@types/es6-shim": "^0.31.42",
+    "mysql": "^2.18.1",
+    "ts-node": "^10.4.0",
+    "typeorm": "^0.2.41"
+  }
+}
