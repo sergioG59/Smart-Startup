@@ -18,5 +18,5 @@ function onSubmit(event) {
     console.log("departure", departure);
     console.log("return_", return_);
     console.log("round", round);
-    console.log("oneway", oneway.target);
+    console.log("oneway", oneway.value);
 }
